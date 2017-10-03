@@ -1,29 +1,14 @@
-[![Semiotic](semiotic_logo_horizontal.png "semiotic")](https://github.com/emeeks/semiotic/wiki/)
 
 Semiotic is a data visualization framework combining React &amp; D3
 
-[Interactive Documentation](https://emeeks.github.io/semiotic/)
+This is a fork of
+[semiotic](https://github.com/emeeks/semiotic) with a pared
+down version of the examples in the docs folder.
 
-[API Docs on the wiki](https://github.com/emeeks/semiotic/wiki)
+Instead of linking to the components in the src folder I pull
+in the semiotic repo instead.
 
-Installation
-```
-npm i semiotic
-```
-
-Example
-
-```js
-import { XYFrame } from 'semiotic'
-```
-
-_Semiotic icon based on an icon by André Schauer_
-
-It may not be apparent in the commit logs but development of this library owes a lot to:
-
-* Susie Lu
-* Jason Reid
-* James Womack
-* Matt Herman
-* Shelby Sturgis
-* Tristan Reid
+This repo shows a very nice example of how to use
+[material-ui](http://www.material-ui.com/#/)
+which is a set of React components that implement
+Google's Material Design.
