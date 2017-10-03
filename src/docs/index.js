@@ -12,7 +12,6 @@ import "./flexboxgrid.css"
 import "./prism.css"
 import "./index.css"
 
-const gh = "emeeks/semiotic"
 const basename = process.env.REACT_APP_GH_PAGES_PATH
   ? `/${process.env.REACT_APP_GH_PAGES_PATH}`
   : ""
@@ -40,7 +39,6 @@ const Docs = test => {
               />
               <Route path="/:component" component={Documentation} />
             </div>
-            <LayoutFooter gh={gh} />
           </div>
         </HashRouter>
       </div>
