@@ -217,10 +217,6 @@ export default class Documentation extends React.Component {
           onLeftIconButtonTouchTap={() =>
             this.setState({ open: !this.state.open })}
         >
-          <img
-            style={{ paddingTop: "10px", width: "40px", height: "40px" }}
-            src="/semiotic/semiotic_white.png"
-          />
         </AppBar>
         <div className="row">
           <div className="col-xs-8 col-xs-offset-2">

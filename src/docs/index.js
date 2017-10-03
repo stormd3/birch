@@ -31,7 +31,6 @@ const Docs = test => {
                   if (location.pathname === "/") {
                     return (
                       <div>
-                        <Home />
                         <Documentation />
                       </div>
                     )
